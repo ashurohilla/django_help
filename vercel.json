@@ -2,7 +2,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "instagram_clone/wsgi.py"
+      "dest": "instagramclone/wsgi.py"
     }
   ]
 }

@@ -31,7 +31,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'instagram_clone.urls'
+ROOT_URLCONF = 'instagramclone.urls'
 
 TEMPLATES = [
     {
@@ -49,7 +49,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'instagram_clone.wsgi.app'
+WSGI_APPLICATION = 'instagramclone.wsgi.app'
 
 
 DATABASES = {
