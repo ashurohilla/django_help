@@ -1,8 +1,4 @@
 {
-  "builds": [{
-      "src": "instagramclone/wsgi.py",
-      "config": { "maxLambdaSize": "300mb" }
-  }],
   "routes": [
       {
           "src": "/(.*)",
