@@ -6,7 +6,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 DEBUG = os.environ.get('DEBUG',True)
-ALLOWED_HOSTS = ['localhost', '127.0.0.1','.vercel.app']
+ALLOWED_HOSTS = ['127.0.0.1','.vercel.app']
 
 
 INSTALLED_APPS = [
@@ -49,7 +49,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'instagram_clone.wsgi.application'
+WSGI_APPLICATION = 'instagram_clone.wsgi.app'
 
 
 DATABASES = {
